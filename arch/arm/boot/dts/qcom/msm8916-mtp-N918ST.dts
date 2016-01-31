@@ -14,13 +14,13 @@
 
 #include "msm8916.dtsi"
 
-#include "zte/N918X/msm8916-mtp-lcd.dtsi"
-#include "zte/N918X/msm8916-mtp-sdhc2.dtsi"
-#include "zte/N918X/msm8916-mtp-sensor.dtsi"
-#include "zte/N918X/msm8916-mtp-breathlight.dtsi"
-#include "zte/N918X/msm8916-mtp-keys.dtsi"
+#include "N918ST/msm8916-mtp-lcd.dtsi"
+#include "N918ST/msm8916-mtp-sdhc2.dtsi"
+#include "N918ST/msm8916-mtp-sensor.dtsi"
+#include "N918ST/msm8916-mtp-breathlight.dtsi"
+#include "N918ST/msm8916-mtp-keys.dtsi"
 
-#include "zte/N918X/msm8916-camera-sensor-mtp.dtsi"
+#include "N918ST/msm8916-camera-sensor-mtp.dtsi"
 
 #include "msm8916-mtp.dtsi"
 #include "msm8916-memory.dtsi"

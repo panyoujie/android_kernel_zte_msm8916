@@ -1,0 +1,25 @@
+# Zte configuration options
+
+config MACH_ZTE
+	bool "Zte device"
+	depends on ARCH_MSM
+	help
+	  Support for Zte products
+
+config MACH_ZTE_MSM8916
+	bool "Zte MSM8916"
+	depends on ARCH_MSM8916
+	select MACH_ZTE
+	help
+	  Support for MSM8916 Zte variants
+
+menu "Zte board selection"
+
+config MACH_N918ST
+	bool "N918ST board"
+	select MACH_ZTE_MSM8916
+	help
+	  Support for Zte N918ST variant
+
+endmenu
+
